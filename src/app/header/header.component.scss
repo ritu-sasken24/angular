@@ -1,0 +1,90 @@
+.spacer {
+    flex: 1 1 auto;
+}
+.sasken-logo {
+    height: 67px;
+    width: 104px;
+    padding: 0;
+}
+.sasken-color {
+    background: #372b78;
+}
+.header-sec {
+    color: white;
+    font-size: 18px;
+}
+.second-header:hover {
+    text-decoration: underline;
+    text-decoration-color: #372b78;
+}
+// list css
+.tabs {
+    list-style: none;
+    .li-tab {
+        display: inline-block;
+        margin-right: 19px;
+        font-size: 15px;
+        color: #372b78;
+        cursor: pointer;
+    }
+}
+.tabs li.active-tab {
+    color: #372b78;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #372b78;
+}
+
+// =====================================
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    height: 120px;
+    background: #ffffff;
+    resize: both;
+    .right {
+        float: right;
+    }
+    .left {
+        float: left;
+    }
+}
+
+.menu-div {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    height: 50px;
+    background: #ffffff;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 0px solid #e7e7e7;
+        background-color: #ff3300;
+        font: 15px arial, sans-serif;
+        b,
+        strong {
+            font-weight: bolder;
+        }
+        li {
+            float: right;
+        }
+        li a {
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+}

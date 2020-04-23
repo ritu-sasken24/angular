@@ -1,0 +1,39 @@
+.dashboard-main-page {
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+.assessments-heading {
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 81px;
+    margin-bottom: 0;
+}
+.assessments {
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 81px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+th {
+    background: #372b78;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

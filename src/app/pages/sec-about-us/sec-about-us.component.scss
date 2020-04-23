@@ -1,0 +1,53 @@
+div {
+    display: block;
+}
+.heading-about-us {
+    font-family: auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: #400080;
+    margin-bottom: 0;
+}
+.para-us {
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: auto;
+}
+.heading-vision {
+    padding: 25px;
+    font-size: 25px;
+    color: black;
+    margin-top: -38px;
+}
+.para-about-us {
+    text-align: justify;
+    font-size: 20px;
+    font-family: auto;
+    margin-top: -40px;
+    padding: 13px;
+}
+.heading-vison {
+    padding: 17px;
+    font-size: 20px;
+    color: black;
+    margin-top: -38px;
+}
+b {
+    font-weight: bold;
+}
+// =========================
+
+.first-box-div {
+    background: #ffffff;
+    resize: both;
+    padding: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border-radius: 3px;
+    width: 60%;
+    margin-left: 124px;
+    margin-top: 34px;
+}
